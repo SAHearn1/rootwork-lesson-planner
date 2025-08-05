@@ -1,8 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const rateLimit = require('express-rate-limit');
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 require('dotenv').config();
+
 
 const app = express();
 app.use(express.json());
