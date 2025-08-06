@@ -5,6 +5,8 @@ require('dotenv').config();
 
 
 const app = express();
+
+app.set('trust proxy', true);  // Fix for Vercel deployment
 app.use(express.json());
 
 // CORS configuration
