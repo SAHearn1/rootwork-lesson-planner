@@ -1078,4 +1078,3 @@ Please try again in a few moments. If the problem persists, contact support.`);
 };
 
 export default RootWorkLessonPlanner;
-Add complete RootWorkLessonPlanner component with backend integration
